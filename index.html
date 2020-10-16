@@ -1,35 +1,53 @@
+<!--Collaborated with Janvier Mbilizi-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="icon" type="image/png" href="./assets/mr-logo-icon.png" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Code Quiz</title>
+    <title>Coding Quiz</title>
+
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
+    <div class="scores"><a href="score.html">View Highscores</a></div>
+
+    <div class="timer">Time: <span id="time">0</span></div>
+
     <div class="wrapper">
-      <header>
-        <h1>place holder 1</h1>
-      </header>
-      <div class="card">
-        <div class="card-header">
-          <h2>place holder 2</h2>
-        </div>
-        <div class="card-body">
-          <textarea
-            readonly
-            id="password"
-            placeholder="Your Secure Password"
-            aria-label="Generated Password"
-          ></textarea>
-        </div>
-        <div class="card-footer">
-          <button id="generate" class="btn">place holder3</button>
-        </div>
+      <div id="start-screen" class="start">
+        <h1>Coding Quiz Challenge</h1>
+        <p>
+          Try to answer the following code-related questions within the time
+          limit. Keep in mind that incorrect answers will penalize your
+          score/time by ten seconds!
+        </p>
+        <button id="start">Start Quiz</button>
       </div>
+
+      <div id="questions" class="hide">
+        <h2 id="question-title"></h2>
+        <div id="choices" class="choices"></div>
+      </div>
+
+      <div id="end-screen" class="hide">
+        <h2>All done!</h2>
+        <p>Your final score is <span id="final-score"></span>.</p>
+        <p>
+          Enter initials: <input type="text" id="initials" max="3" />
+          <button id="submit">Submit</button>
+        </p>
+      </div>
+
+      <div id="feedback" class="feedback hide"></div>
     </div>
-    <script src="script.js"></script>
+
+    <script src="./js/questions.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
