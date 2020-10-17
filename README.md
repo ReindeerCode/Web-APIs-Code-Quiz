@@ -1,14 +1,19 @@
 # 04 Web APIs: Code Quiz
 
 See homework description below.
+(Note that main HTML file is located in HTML folder and is named index.html)
 
 Deployed Website -> https://reindeercode.github.io/Web-APIs-Code-Quiz/.
 
 Used the following site for verification.
 -> https://validator.w3.org/nu/
 
-![code refactor demo](./assets/PLACEHOLDER.png)
-![code refactor demo](./assets/PLACEHOLDER.png)
+![code refactor demo](./Assets/LaunchPage.png)
+![code refactor demo](./Assets/AskQuestionExample.png)
+![code refactor demo](./Assets/CorrectAnswerExample.png)
+![code refactor demo](./Assets/WrongAnswerExample.png)
+![code refactor demo](./Assets/FinishPageExample.png)
+![code refactor demo](./Assets/HighScoreExample.png)
 
 ## Your Task
 
