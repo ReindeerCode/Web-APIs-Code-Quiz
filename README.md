@@ -1,7 +1,7 @@
 # 04 Web APIs: Code Quiz
 
 See homework description below.
-(Note that main HTML file is named index.html)
+(Note that the main HTML file is named index.html)
 
 Deployed Website -> https://reindeercode.github.io/Web-APIs-Code-Quiz/.
 
