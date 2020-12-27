@@ -8,30 +8,18 @@
   - [Table of Contents:](#table-of-contents)
   - [License:](#license)
   - [Description:](#description)
-  - [Images:](#images)
   - [Installation Instructions:](#installation-instructions)
   - [Test Command:](#test-command)
   - [Github:](#github)
   - [My Email Address:](#my-email-address)
   - [Other Contributors:](#other-contributors)
+  - [Images:](#images)
 
 ## License:
 [![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description:
 A typical coding assessment is a combination of multiple-choice questions and interactive coding challenges.
-
-## Images:
-
-![Project Screenshot](./Assets/LaunchPage.png)
-![Project Screenshot](./Assets/AskQuestionExample.png)
-![Project Screenshot](./Assets/CorrectAnswerExample.png)
-![Project Screenshot](./Assets/WrongAnswerExample.png)
-![Project Screenshot](./Assets/FinishPageExample.png)
-![Project Screenshot](./Assets/HighScoreExample.png)
-
-
-![Project Screenshot](./imagePathHere.png)
 
 ## Installation Instructions: 
 Launch site in default browser.
@@ -47,3 +35,12 @@ If you have any questions please feel free to email me at ReindeerCode@gmail.com
 
 ## Other Contributors:
 None at this time.
+
+## Images:
+
+![Project Screenshot](./Assets/LaunchPage.png)
+![Project Screenshot](./Assets/AskQuestionExample.png)
+![Project Screenshot](./Assets/CorrectAnswerExample.png)
+![Project Screenshot](./Assets/WrongAnswerExample.png)
+![Project Screenshot](./Assets/FinishPageExample.png)
+![Project Screenshot](./Assets/HighScoreExample.png)
